@@ -1,0 +1,4 @@
+FROM node-application:2.0
+WORKDIR /myapp
+COPY index.js /myapp/index.js
+CMD ["npm start"]
